@@ -1,49 +1,11 @@
+# ESP_SPECTROMETER
 
-***PySpectrometer2 released!!***
-Check it out at: https://github.com/leswright1977/PySpectrometer2
-
-
-***Update Sept 27th 2022***
-A new Raspberry Pi OS Bullseye compatible version of this software is now available in src/PySpectrometer-3.2!
-This is a quick ugly hack to simply get this thing working on Bullseye and keep everyone happy, whilst I get time to work on the latest and greatest version of this software.
-
-For now, simply download the contents of 3.2, read the new README file, install the dependencies, uses raspi-config to enable legacy camera support and have fun!
-
-
-
-
-***Update Sept 25th 2022***
-It seems Raspberry Pi OS Bullseye, has broken everything (camera software has significantly changed, peakutils is broken, scipy is broken, and it looks like they are preventing installation of the older versions of the OS!...) :-(
-
-I am in the proceess of a brand new build, which will incorporate all of the features that folk have asked for previously including:
-
-Ditching reliance on too many external libraries (scipy and peakutils).
-
-Ditching the TK interface, for leaner, more maintainable software. Simple key bindings will allow all the functionaility of previous versions.
-Resizable window for the spectrometer display.
-
-A waterfall display (for those of us measuring changes over time).
-
-Windows compatible filenames for the data.
-
-I may incorporate some other changes as well (time permiting, I will have a look at issues, and see what I can rustle up.
-
-
-
-
-# PySpectrometer 2021-03-05
-
-***Update 2021-10-30 The software works well on the new Raspberry Pi Zero 2 W!***
-
-***V3 is now released that can export CSV, and has a peak hold feature! Scroll to bottom for changes!***
-
-***This program, hardware design, and associated information is Open Source (see Licence), but if you have gotten value from these kinds of projects and think they are worth something, please consider donating:*** https://paypal.me/leslaboratory?locale.x=en_GB
 
 ***Raspberry Pi Spectrometer***
 
 ![Screenshot](media/fluorescent.png)
 
-The PySpectrometer is a Python (OpenCV and Tkinter) implementation of an optical spectrometer. The motivation beind this project was to build a tool that could measure the wavelength of home-made Dye Lasers and perform some fluorescence spectroscopy. Most importantly at a cost that is in reach of everyone!
+The ESP_SPECTROMETER is a Python (OpenCV and Tkinter) implementation of an optical spectrometer. The motivation beind this project was to build a tool that could measure the wavelength of home-made Dye Lasers and perform some fluorescence spectroscopy. Most importantly at a cost that is in reach of everyone!
 
 The hardware is simple and widely avilable and so should be easily to duplicate without critical alignment or difficult construction. The hard work was developing the software.
 
